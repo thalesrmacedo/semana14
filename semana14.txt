@@ -1,0 +1,40 @@
+Vamos falar sobre os requisitos funcionais e não funcionais para um aplicativo de e-commerce como o Magazine Luiza
+
+Requisitos Funcionais:
+
+1. Cadastro de Usuário:
+- Os usuários devem poder criar contas no aplicativo, fornecendo informações como nome, e-mail e senha.
+- O sistema deve validar os dados inseridos e garantir que não haja duplicação de contas.
+2. Catálogo de Produtos:
+- O aplicativo deve exibir uma lista de produtos disponíveis para compra.
+- Os produtos devem ser organizados em categorias (por exemplo, roupas, eletrônicos, alimentos).
+- Os usuários devem poder pesquisar e filtrar produtos com base em critérios como preço, marca e avaliação.
+3. Carrinho de Compras:
+- Os usuários devem poder adicionar produtos ao carrinho de compras.
+- O carrinho deve mostrar o resumo dos itens selecionados, quantidades e preços.
+- Os usuários podem remover ou atualizar itens no carrinho.
+4. Finalização da Compra:
+- Os usuários devem poder finalizar a compra.
+- O aplicativo deve solicitar informações de entrega (endereço) e opções de pagamento (cartão de crédito, boleto, etc.).
+- O sistema deve gerar um número de pedido e enviar um e-mail de confirmação.
+5. Histórico de Pedidos:
+- Os usuários devem poder visualizar seus pedidos anteriores.
+- O histórico deve incluir detalhes como data, produtos comprados e status de entrega.
+
+Requisitos Não Funcionais:
+
+1. Desempenho:
+- O aplicativo deve ser rápido e responsivo, mesmo durante picos de tráfego.
+- O tempo de carregamento das páginas e a busca por produtos devem ser otimizados.
+2. Segurança:
+- Os dados dos usuários (como senhas e informações de pagamento) devem ser criptografados e protegidos.
+- O aplicativo deve ter medidas contra ataques, como SQL injection e cross-site scripting.
+3. Escalabilidade:
+- O sistema deve ser capaz de lidar com um grande número de usuários simultâneos.
+- A infraestrutura deve ser escalável para acomodar o crescimento futuro.
+4. Usabilidade:
+- A interface do aplicativo deve ser intuitiva e fácil de usar.
+- Os usuários devem encontrar rapidamente o que procuram e concluir suas compras sem dificuldades.
+5. Disponibilidade:
+- O aplicativo deve estar disponível 24 horas por dia, 7 dias por semana.
+- Manutenções programadas devem ser comunicadas aos usuários com antecedência.
